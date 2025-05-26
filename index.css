@@ -1,0 +1,91 @@
+body{
+    margin-top: 25px;
+}
+
+.main{
+    display: flex;
+    gap: 95px;
+    align-content: center;
+}
+.emailbtn{
+    width: 100%;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.passwordbtn{
+    width: 100%;
+    height:30px;
+    border-radius: 5px;
+     border: 1px solid grey;
+}
+.link{
+    /* width: 100%;
+    height: 100%; */
+    margin-left: 380px;
+}
+.login{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}
+form{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.dha{
+    justify-items: center;
+}
+.fpd{
+    margin-right: 40px ;
+}
+.createbtn{
+    border: none;
+    background-color: rgb(236, 228, 228);
+    font-weight: lighter;
+    font-size: small;
+    width: 500px;
+    height: 40px;
+}
+.twobtn{
+    display: flex;
+    /* margin-left: 40px; */
+    gap: 35px;
+    
+}
+.twobtn button{
+    background-color: white;
+    height: 35px;
+    width: 50%;
+    border: 0.5px solid grey;
+}
+.or{
+    justify-items: center;
+}
+.img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+.imgtext{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 30px;
+}
+.emailpass{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.wlcm{
+    font-weight: bolder;
+    font-size: 30px;
+}
