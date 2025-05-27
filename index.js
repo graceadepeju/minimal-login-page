@@ -12,3 +12,8 @@ login.addEventListener("click",function(){
         alert("Incorrect Details")
     }
 })
+
+// 0R
+const inputUsername = document.querySelector("#input-username");
+const inputPassword = document.querySelector("#input-password");
+const btn = document.querySelector("button");

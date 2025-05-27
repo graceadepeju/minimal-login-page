@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     margin-top: 25px;
 }
 
@@ -12,12 +14,14 @@ body{
     height:30px;
     border-radius: 5px;
     border: 1px solid grey;
+    padding: 0 0 0 15px;
 }
 .passwordbtn{
     width: 100%;
     height:30px;
     border-radius: 5px;
      border: 1px solid grey;
+     padding: 0 0 0 15px;
 }
 .link{
     /* width: 100%;
@@ -36,7 +40,7 @@ form{
     margin-left: 25px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 7px;
 }
 .dha{
     justify-items: center;
@@ -63,6 +67,7 @@ form{
     height: 35px;
     width: 50%;
     border: 0.5px solid grey;
+    border-radius: 5px;
 }
 .or{
     justify-items: center;
@@ -77,13 +82,14 @@ form{
     font-weight: bolder;
     font-size: 30px;
     position: absolute;
-    bottom: 40px;
+    bottom: 35px;
     margin-left: 30px;
 }
 .emailpass{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    
 }
 .wlcm{
     font-weight: bolder;
